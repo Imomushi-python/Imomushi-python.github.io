@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yakumoのサイト制作</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- Font awesome -->
+	<script src="https://kit.fontawesome.com/a1865d1420.js" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+			<a href="#mainvisual" class="navbar-brand"><h1 class="mb-0"><i class="fas fa-cloud d-none d-sm-inline-block"></i>Yakumoのサイト制作</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-3"><a href="#mainvisual" class="nav-link"><i class="fas fa-home"></i>HOME</a></li>
+					<li class="nav-item ml-3"><a href="#about" class="nav-link"><i class="fas fa-user"></i>ABOUT</a></li>
+					<li class="nav-item ml-3"><a href="#portfolio" class="nav-link"><i class="fas fa-th"></i>PORTFOLIO</a></li>
+				</ul>
+			</div>
+			<a href="mailto:mt.cat.yakumo54@gmail.com" class="btn btn-dark d-none d-md-block ml-3 rounded-0"><i class="far fa-envelope"></i>Mail</a>
+		</nav>
+	</header>
+	<!-- Mainvisual -->
+	<div class="mainvisual anchor" id="mainvisual">
+	</div>
+	<!-- About -->
+	<div class="about text-dark anchor" id="about">
+		<div class="container">
+			<div class="about-text text-center mt-5">
+				<h2 class="mb-4 display-4">About Me</h2>
+				<p>千葉県在住の大学生です。</p>
+				<p>基本的にWebのコーディングを行っていますが、<br>サイトの方向性の決定からデザイン、コーディングまで１から制作した経験もあります。</p>
+			</div>
+			<div class="skill text-center mb-5">
+				<h3>Skill</h3>
+				<h4><i class="fas fa-code"></i>コーディング</h4>
+				<p>HTML, CSS, Bootstrapを主に扱っています。<br>また、jQueryで簡単な動きを付けることができます。WordPressは現在勉強中です。</p>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio -->
+	<div class="portfolio text-dark anchor" id="portfolio">
+		<div class="container-fluid portfolio-header py-5">
+			<h2 class="text-center display-4">Portfolio</h2>
+		</div>
+		<div class="portfolio-body container text-center">
+			<h3 class="mt-5 mb-3">My Works</h3>
+			<div class="card-deck mb-5">
+				<div class="card haveContent">
+					<img src="img/Jiti_kennshinn.jpg" alt="Card Image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">自治医科大学<br>健診センター</h4>
+						<p class="card-text">知り合いの依頼で、サイトの方向性、デザインからコーディングまでを行いました。<br>お年寄りなど幅広い年代が使いやすいようなデザインとアクセシビリティを工夫しました。</p>
+						<a href="http://www.jichi.ac.jp/kenshin/" class="btn btn-secondary stretched-link">リンクはこちら</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top no-card-img">
+					<div class="card-body">
+						<h4 class="card-title">準備中</h4>
+						<p class="card-text">只今準備中です。</p>
+						<a href="" class="btn btn-secondary stretched-link disabled">リンクはこちら</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top no-card-img">
+					<div class="card-body">
+						<h4 class="card-title">準備中</h4>
+						<p class="card-text">只今準備中です。</p>
+						<a href="" class="btn btn-secondary stretched-link disabled">リンクはこちら</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact -->
+	<div class="contact">
+		<div class="container-fluid contact-header py-5">
+			<h2 class="text-center display-4">Contact</h2>
+		</div>
+		<div class="container content-body py-5 text-center">
+			<p><i class="far fa-envelope"></i>Email: mt.cat.yakumo54@gmail.com<a href="mailto:mt.cat.yakumo54@gmail.com" class="btn btn-dark d-inline-block d-block d-sm-inline-block">メールをする</a></p>
+			<p><i class="fab fa-twitter"></i>Twitter: @Yakumo59704702<a href="https://twitter.com/Yakumo59704702" class="btn btn-dark d-inline-block d-block d-sm-inline-block">リンク</a></p>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<div class="container text-center py-3">
+			<p class="mb-0">&copy; 2020 Yakumo.</p>
+		</div>
+	</footer>
+	<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
